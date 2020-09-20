@@ -104,7 +104,7 @@ export class Dector {
    * Multiplies the `Dector`'s components by all numbers within a scalar tuple.
    * @returns this
    */
-  public mult(...scalars: number[]): this {
+  public multiply(...scalars: number[]): this {
     const scalarsSum = scalars.reduce((a, b) => a + b, 0);
 
     for (let i = 0; i < this.components.length; i++) {

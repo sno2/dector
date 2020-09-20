@@ -50,9 +50,9 @@ Deno.test("Dector.subtract()", () => {
   assertStrictEquals(myDector.y, 1);
 });
 
-Deno.test("Dector.mult()", () => {
+Deno.test("Dector.multiply()", () => {
   const myDector = new Dector(2, 3);
-  myDector.mult(2);
+  myDector.multiply(2);
   assertStrictEquals(myDector.x, 4);
   assertStrictEquals(myDector.y, 6);
 });
