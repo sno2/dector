@@ -179,7 +179,7 @@ export class Dector {
       if (Dector.supportedDimensionNames[i]) {
         componentObject[Dector.supportedDimensionNames[i]] = this.components[i];
       } else {
-        console.error(
+        console.warn(
           `Warning: Dimension \`${
             i + 1
           }\` does not have a letter name identifier (supports ${Dector.supportedDimensionNames.join(
